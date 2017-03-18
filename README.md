@@ -1,6 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to FreeSub Api
 
-You can use the [editor on GitHub](https://github.com/Freesub/freesub-api/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [FreeSub Api](https://freesub-api.ttyl.gq/doc) to edit, list, and create DNS records of your domain.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
