@@ -20,6 +20,12 @@
         flex-direction: column;
         justify-content: center;
       }
+      #nav-box .scrolled-nav {
+        height: 40px;
+      }
+      #nav .scrolled-nav {
+        height: 40px;
+      }
       #nav-title {
         font-weight: bold;
         font-size: 20px;
@@ -52,7 +58,7 @@
             $('#nav-box').addClass('scrolled-nav');
           } else if (scrollTop < 100) {
             $('#nav').removeClass('scrolled-nav');
-            $('#nav').removeClass('scrolled-nav');
+            $('#nav-box').removeClass('scrolled-nav');
           } 
         });
       });
