@@ -1,0 +1,2 @@
+# freesub-api
+FreeSub API
