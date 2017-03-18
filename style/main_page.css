@@ -8,6 +8,7 @@ body {
 #nav {
   min-width: 700px;
   border-bottom: 2px solid black;
+  margin: auto;
 }
 #nav-title {
   font-weight: bold;
