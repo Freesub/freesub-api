@@ -54,10 +54,10 @@
         $(window).scroll(function(){
           scrollTop = $(window).scrollTop();
           $('.counter').html(scrollTop);
-          if (scrollTop >= 100) {
+          if (scrollTop >= 200) {
             $('#nav-box').css('height', '40px');
-          } else if (scrollTop < 100) {
-            $('#nav-box').css('height', '60px');
+          } else if (scrollTop < 200) {
+            $('#nav-box').css('height', '80px');
           } 
         });
       });
