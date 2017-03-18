@@ -2,7 +2,7 @@
 
 You can use the [FreeSub Api](https://freesub-api.ttyl.gq/doc) to edit, list, and create DNS records of your domain.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+All you need to do is enter a little `JavaScript` code. And add the packages to your `HTML` file. Once you have all the code configured you can send `POST` records to the FreeSub API Server.
 
 ### Markdown
 
