@@ -11,6 +11,7 @@
       #nav-box {
         width: 100%;
         height: 60px;
+        display: inline;
         box-shadow: 0 0 10px black;
         position: fixed;
       }
@@ -21,9 +22,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-      }
-      #nav-box .scrolled-nav {
-        height: 40px;
       }
       #nav .scrolled-nav {
         height: 40px;
@@ -57,10 +55,8 @@
           $('.counter').html(scrollTop);
           if (scrollTop >= 100) {
             $('#nav').addClass('scrolled-nav');
-            $('#nav-box').addClass('scrolled-nav');
           } else if (scrollTop < 100) {
             $('#nav').removeClass('scrolled-nav');
-            $('#nav-box').removeClass('scrolled-nav');
           } 
         });
       });
