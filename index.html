@@ -54,9 +54,9 @@
           scrollTop = $(window).scrollTop();
           $('.counter').html(scrollTop);
           if (scrollTop >= 100) {
-            $('#nav-box').addClass('scrolled-nav');
+            $('#nav-box').css('height', '40px');
           } else if (scrollTop < 100) {
-            $('#nav-box').removeClass('scrolled-nav');
+            $('#nav-box').css('height', '60px');
           } 
         });
       });
