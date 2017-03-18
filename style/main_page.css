@@ -1,1 +1,8 @@
-
+#nav-box {
+  width: 100%;
+  height: 60px;
+}
+#nav {
+  min-width: 700px;
+  border-bottom: 2px solid black;
+}
